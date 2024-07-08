@@ -1,0 +1,220 @@
+    * {
+        font-family: "Lora", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        padding: 0;
+        margin: 0;
+        color: white;
+    }
+    body{
+        height: 100vh;
+        width: 100%;
+background-color:#000;
+display: flex;
+
+}
+
+/* لاخفاء عنصر  */
+/* .profile{
+    display: none;
+} */
+.menu{
+background-color: #123;
+width: 60px;
+height: 100vh;
+padding: 20px;
+transition: 1s ease;
+border-radius: 15px;
+overflow: hidden;
+
+}
+.menu:hover{
+    width:260px;
+}
+
+ul{
+    
+    list-style: none;
+    position: relative;
+    height: 100%;
+  
+} 
+
+ 
+ul li a{
+    display: block;
+    margin:10px 0px;
+    padding: 10px;
+    text-decoration:none ;
+border-radius: 8px;
+display: flex;
+align-items: center;
+gap:40px;
+transition: 1s ease;
+
+
+}
+ul li a:hover{
+   background-color: #ffffff55;
+  scale: 1.1;
+}
+.logout{
+    position: absolute;
+    bottom: 0px;
+   width: 100%;
+}
+.logout:hover{
+    scale: 1.1;
+}
+.logout a{
+    background-color: red;
+}
+ul li a i{
+    font-size: 30px;
+}
+
+.profile{
+display: flex;
+align-items: center;
+gap: 30px;
+}
+.profile h3{
+    font-size: 20px;
+    text-transform:capitalize ;
+}
+/*   جدامهم */
+.img-box{
+    width: 50px;
+    height: 50px;
+   margin-bottom: 10px;
+
+ border-radius: 50%;
+ overflow: hidden;
+ border:3px solid white;
+ flex-shrink: 0;   /* عشان الصوره بتبوظ لازم الغي الانكماش بتاعها  */
+ /* دلوقتي  اما حطينا  وهملنا الدف دائره فاحنا كدا  الصوره خرجت بره حدود الدف فلازم اشيل الي الباقليل الي بره الدف*/
+}
+.img-box img{
+    width: 100%;
+}
+.img-box:hover{
+    scale: 1.5;
+}
+/* contant */
+.content{
+    width:100% ;
+margin: 10px;
+}
+.content .title{
+background-color: rgb(136, 136, 249);
+padding: 10px;
+margin:10px 0px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.content .title i{
+    font-size: 20px;
+}
+.content .title p{
+    font-size: 20px;
+    font-weight: 700;
+}   
+
+.square{
+
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+
+   gap:10px;
+}
+.square .box{
+    height:150px;
+    background-color: #123;
+    flex-basis: 150px;
+    flex-grow:1 ;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    transition: 2s ;
+}
+.square .box:hover{
+scale: 1.1;
+background-color:#ffffff55 ;
+}
+
+ 
+
+.content .title2{
+    background-color: rgb(136, 136, 249);
+    padding: 10px;
+    margin:10px 0px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .title2 i{
+    font-size: 20px;
+}
+
+.content .title2 p{
+    font-size: 20px;
+    font-weight: 700;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 8px;
+    transition: 2s;
+
+}
+
+td,th{
+    background-color:#123;
+    height: 40px;
+    border-radius: 8px;
+    transition: 1s;
+}
+th:hover{
+
+scale: 1.1;
+}
+td:hover{
+
+scale: 1.1;
+}
+
+table thead tr th{
+
+background-color: rgb(136, 136, 249) ;
+}
+
+
+.price,.span{
+
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(51, 173, 87) ;
+    border-radius: 10px;
+}
+.span{
+
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(216, 200, 25, 0.893) ;
+    border-radius: 10px;
+}
+
+
+
+
+
+
